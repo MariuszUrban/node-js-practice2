@@ -1,8 +1,8 @@
 {
-  "name": "client",
+  "name": "start",
   "version": "1.0.0",
   "description": "",
-  "main": "precache-manifest.5e5444b5641e35fb2705063ab87550df.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
   }
 }
