@@ -1,10 +1,10 @@
-const appMock = require("./app");
-require('./index.js');
+import appMock  from "./app";
+import from "./index.js";
 
-jest.mock('./app')
+jest.mock("./app");
 
 describe("index.js - app entry", () => {
-    it("should call app.listen", () => {
-        expect(appMock.listen).toHaveBeenCalled(); 
-    })
-})
+  it("should call app.listen()", () => {
+    expect(appMock.listen).toHaveBeenCalled();
+  });
+});
