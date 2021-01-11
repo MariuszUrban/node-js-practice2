@@ -160,7 +160,7 @@ var addSorting = (function() {
         if (!getTable()) {
             return;
         }
-        cols = loadColumns();
+        loadColumns();
         loadData();
         addSortIndicators();
         enableUI();
